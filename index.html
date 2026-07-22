@@ -1,34 +1,36 @@
 <script type="module" 
-src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
-<model-viewer
-src="20260618_01.glb"
-ios-src="20260618_01.usdz"
-ar
-ar-modes="scene-viewer"
-　 shadow-intensity="1"
-camera-controls
-touch-action="pan-y"
->
-<button id="custom-ar-button" slot="ar-button">TAP</button>
-</model-viewer>
-<style>
-model-viewer {
-width: 100%;
-height: 640px;
-background-color: #FFFFFF;
-}
-#custom-ar-button {
-font-size: 50px;
-position: absolute;
-bottom: 5%;
-left: 10%;
-align-items: center;
-justify-content: center;
-font-weight: bold;
-background-color: #8AC75A; /* 背景色 */
-color: white; /* 文字色 */
-border: none; /* ボーダーを削除 */
-padding: 10px 15px; /* 内側の余白 */
-border-radius: 20px; /* 角の丸み */
-}
-</style>
+src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script> 
+<model-viewer 
+    src="20260618_01.glb" 
+    ios-src="20260618_01.usdz" 
+    ar 
+    ar-modes="scene-viewer" 
+　  shadow-intensity="1" 
+    camera-controls 
+    touch-action="pan-y" 
+   > 
+<button id="custom-ar-button" slot="ar-button">TAP</button> 
+  </model-viewer> 
+<style> 
+model-viewer { 
+      width: 100%; 
+      height: 640px; 
+      background-color: unset;
+      background: linear-gradient(135deg, #1f1c2c 0%, #928dab 100%);
+    } 
+#custom-ar-button { 
+      font-size: 50px; 
+      position: absolute;
+      right: 0;
+      bottom: 5%; 
+      left: 0; 
+align-items: center; 
+  justify-content: center; 
+font-weight: bold; 
+background-color: #EC008C; /* 背景色 */ 
+  color: white; /* 文字色 */ 
+  border: none; /* ボーダーを削除 */ 
+  padding: 10px 15px; /* 内側の余白 */ 
+  border-radius: 20px; /* 角の丸み */ 
+    } 
+  </style>
